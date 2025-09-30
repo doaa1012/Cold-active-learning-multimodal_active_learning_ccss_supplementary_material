@@ -1,0 +1,20 @@
+﻿name: multimodal_ccss
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - gpy
+  - pydoe2
+  - scipy
+  - opencv
+  - pip
+  - pip:
+      - traceback-with-variables  
+
